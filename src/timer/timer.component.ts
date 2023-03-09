@@ -9,9 +9,9 @@ import { MeComponent } from '../me/me.component';
   styleUrls: ['./timer.component.css']
 })
 export class TimerComponent implements OnInit {
-
+ 
   constructor() { 
-
+    this.counter = 0;
   }
   ngOnInit() {
   }

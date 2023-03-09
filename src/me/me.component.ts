@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TimerComponent } from '../timer/timer.component';
+import { TimerComponent } from './timer/timer.component';
 
 @Component({
   selector: 'app-me',
@@ -13,9 +13,7 @@ export class MeComponent implements OnInit {
   counter: number;
   constructor() { 
   this.myName = 'Karina';
-  this.counter = 0;
   }
-
   ngOnInit() {
   }
 
